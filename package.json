@@ -1,0 +1,26 @@
+{
+  "name": "no-speed-cap",
+  "version": "1.0.0",
+  "description": "Removes the speed cap from employees.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && sed -i '/require(\"startupcompany\");/d' mod/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SCModding/NoSpeedCap.git"
+  },
+  "author": "Donovan Daniels <hewwo@yiff.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SCModding/NoSpeedCap/issues"
+  },
+  "homepage": "https://github.com/SCModding/NoSpeedCap#readme",
+  "dependencies": {
+    "@uwu-codes/eslint-config": "^1.0.49",
+    "startupcompany": "^1.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "private": true
+}
